@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+ul.tabs{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.tabs li{
+    padding: 10px;
+    background-color: #f6f6f6f6;
+    cursor: pointer;
+    border-right: 1px solid white;
+    transition: .2s;
+}
+ul.tabs li.active,
+.tabs li:hover{
+    background-color: rgb(214, 214, 214); 
+
+}
+div.contant {
+    background-color: rgb(214, 214, 214); 
+}
+div.contant > div {
+    padding: 20px;
+}
+div.contant > div:not(:first-child) {
+    display: none;
+}
